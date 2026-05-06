@@ -2,5 +2,5 @@
 Este repositorio es la para la entrega y realización de los trabajos prácticos  de la cátedra Actualidad Informática
 
 Integrantes:
--Schoemberger, Maikon Lisandro \n
+-Schoemberger, Maikon Lisandro 
 -Schoemberger. Junior Walter
