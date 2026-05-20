@@ -1,5 +1,5 @@
 #Spec: Gestión de Eventos Académicos
-
+simulación xd
 ## 1. Objetivo y Contexto
 
 ### Objetivo
