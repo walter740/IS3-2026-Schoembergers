@@ -1,3 +1,4 @@
+# Spec: Gestión de Inscripciones a Eventos Académicos
 ## 1. Objetivo y Contexto
 
 ### Objetivo

@@ -1,3 +1,5 @@
+#Spec: Gestión de Eventos Académicos
+
 ## 1. Objetivo y Contexto
 
 ### Objetivo
