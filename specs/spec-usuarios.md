@@ -25,23 +25,35 @@ Los usuarios podrán registrarse de forma autónoma para participar en eventos.
 * Entonces el sistema debe crear mi usuario
 
 ---
-### Historia 1 (enriquecimiento cubriendo riesgos R1(Accesos indebidos), R4(Exposición de información sensible))
+#### Historia 1 (enriquecimiento cubriendo riesgos R1(Accesos indebidos), R4(Exposición de información sensible))
 
-controles OWASP a incorporar:
-    **validación de entradas:**
-    * validar nombre, email y contraseña utilizando Zod tanto en frontend como backend.
-    * sanitizar entradas para evitar inyecciones 
-    **Protección de credenciales:** 
-    *las contraseñas deberán almacenarse utilizando hashing seguro (bcrypt)
-    *la contraseña deberá poseer longitud mínima de 8 caracteres 
-    **Prevención de enumeración de usuarios:** 
-    *los mensajes de error no deberán indicar si el email existe o no 
-    **protección contra ataques automatizados:** 
-    *implementar rate limiting en endpoints de autenticación y registro
-    **manejo seguro de errores:**
-    * no exponer stack traces ni información interna del servidor 
-    **registro y monitoreo:** 
-    *registrar intentos fallidos de autenticación
+**controles OWASP a incorporar:**
+
+**validación de entradas**
+  
+* validar nombre, email y contraseña utilizando Zod tanto en frontend como backend.
+* sanitizar entradas para evitar inyecciones 
+
+ **Protección de credenciales:** 
+
+*las contraseñas deberán almacenarse utilizando hashing seguro (bcrypt)
+*la contraseña deberá poseer longitud mínima de 8 caracteres 
+
+**Prevención de enumeración de usuarios:** 
+
+*los mensajes de error no deberán indicar si el email existe o no 
+
+**protección contra ataques automatizados:** 
+
+*implementar rate limiting en endpoints de autenticación y registro
+
+**manejo seguro de errores:**
+
+* no exponer stack traces ni información interna del servidor 
+
+**registro y monitoreo:** 
+
+*registrar intentos fallidos de autenticación
 
 ### Historia 2
 
