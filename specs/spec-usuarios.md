@@ -36,16 +36,16 @@ Los usuarios podrán registrarse de forma autónoma para participar en eventos.
 
  **Protección de credenciales:** 
 
-*las contraseñas deberán almacenarse utilizando hashing seguro (bcrypt)
-*la contraseña deberá poseer longitud mínima de 8 caracteres 
+* las contraseñas deberán almacenarse utilizando hashing seguro (bcrypt)
+* la contraseña deberá poseer longitud mínima de 8 caracteres 
 
 **Prevención de enumeración de usuarios:** 
 
-*los mensajes de error no deberán indicar si el email existe o no 
+* los mensajes de error no deberán indicar si el email existe o no 
 
 **protección contra ataques automatizados:** 
 
-*implementar rate limiting en endpoints de autenticación y registro
+* implementar rate limiting en endpoints de autenticación y registro
 
 **manejo seguro de errores:**
 
@@ -53,7 +53,7 @@ Los usuarios podrán registrarse de forma autónoma para participar en eventos.
 
 **registro y monitoreo:** 
 
-*registrar intentos fallidos de autenticación
+* registrar intentos fallidos de autenticación
 
 ### Historia 2
 
