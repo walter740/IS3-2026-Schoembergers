@@ -28,6 +28,16 @@ El módulo resuelve necesidades como:
 - La respuesta debe devolver un `InscripcionResumen` con `id`, `usuario`, `evento`, `estado` y `fechaInscripcion`.
 - En caso de éxito, devolver código HTTP `201`.
 
+**Enriquecimiento en base al Riesgo R2**
+**Controles OWASP agregados**
+- La validación de cupo debe ejecutarse del lado servidor dentro de una transacción atómica.
+- El sistema debe impedir condiciones de carrera (race conditions) durante inscripciones concurrentes.
+- La creación de inscripción y la actualización de cupos deben ejecutarse en una única transacción de base de datos.
+- El endpoint debe garantizar consistencia incluso ante múltiples solicitudes simultáneas.
+- Se debe implementar protección contra reintentos duplicados mediante validación de idempotencia o restricción única.
+- El sistema debe registrar intentos fallidos de inscripción por concurrencia o sobrecupo.
+- El endpoint debe aplicar validaciones server-side independientemente de las validaciones frontend.
+
 ### HU2: Como participante, quiero ver mis inscripciones para conocer en qué eventos estoy registrado.
 
 **Criterios de Aceptación:**
