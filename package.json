@@ -1,0 +1,23 @@
+{
+  "name": "is3-2026-schoembergers",
+  "version": "1.0.0",
+  "description": "Este repositorio es la para la entrega y realización de los trabajos prácticos  de la cátedra Actualidad Informática",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walter740/IS3-2026-Schoembergers.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/walter740/IS3-2026-Schoembergers/issues"
+  },
+  "homepage": "https://github.com/walter740/IS3-2026-Schoembergers#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
